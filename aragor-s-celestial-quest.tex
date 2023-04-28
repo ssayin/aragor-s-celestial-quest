@@ -1,0 +1,84 @@
+\documentclass[12pt, a4paper]{article}
+
+% Packages
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{graphicx}
+\usepackage{verse}
+\usepackage[    type={CC},    modifier={by-nd},    version={4.0},]{doclicense}
+
+% Set the main font to TeX Gyre Pagella
+\setmainfont{TeX Gyre Pagella}
+
+% Page layout
+\geometry{margin=1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\linespread{1.15}
+
+% Title format
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% Epigraph settings
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
+
+\newcommand{\insertBookImage}[2]{
+    \begin{center}
+    \includegraphics[width=#2\linewidth]{images/#1.jpeg}
+    \end{center}
+}
+
+\begin{document}
+
+% Title
+\begin{titlepage}
+\begin{center}
+  \vspace*{3cm}
+  {\Huge\textbf{Aragor's Celestial Quest}\par}
+  {\Large\textit{Serdar Sayın}\par}
+  \vspace{1cm}
+  {Original Title: "Empebyn Aragor Atheniel Zhevekryev"\par}
+  \vspace{0.5cm}
+   {Originally written in Turkish on December 21, 2017\par}
+  \vspace{0.5cm}
+  
+  {Translated by the author\par} % Translation note
+  \vspace{1cm}
+  \doclicenseThis
+  \vspace{1cm}
+  {\large April 27, 2023\par} % Current date
+
+\end{center}
+\end{titlepage}
+
+\epigraph{``The Frost performs its secret ministry,\\Unhelped by any wind.``}{Samuel Taylor Coleridge, "Frost at Midnight"}
+
+\section{Prologue}
+
+\input{chapters/ch1-prologue.tex}
+
+\newpage
+\input {chapters/ch1-prologue-only-the-wise.tex}
+\newpage
+
+\epigraph{``Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us.``}{Marianne Williamson, \textit{A Return to Love: Reflections on the Principles of "A Course in Miracles"}}
+
+\section{Unraveling the Mysteries of the Cosmos}
+
+\input {chapters/ch2-unraveling-the-mysteries-of-the-cosmos.tex}
+
+\newpage
+\epigraph{``It is our choices, Harry, that show what we truly are, far more than our abilities.``}{Albus Dumbledore, \textit{Harry Potter and the Chamber of Secrets}, by J.K. Rowling}
+
+\section{From Shadows to Destiny}
+
+\input{chapters/ch3-from-shadows-to-destiny.tex}
+
+\end{document}
