@@ -1,6 +1,6 @@
 # Aragor's Celestial Quest
 
-This repository contains the LaTeX source files for my character backgound story, "Aragor's Celestial Quest". The story is written in LaTeX to achieve a professional typesetting and formatting.
+This repository contains the LaTeX source files for my character background story, "Aragor's Celestial Quest". The story is written in LaTeX to achieve a professional typesetting and formatting.
 
 ## Prerequisites
 
@@ -37,5 +37,5 @@ make
 
 ## License
 
-![](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)
+![](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)  
 This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/.
